@@ -1,309 +1,59 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-<head>
-    <meta charset="utf-8">
-    <meta name="facebook-domain-verification" content="s7kxwhylu69kwcbvj2fbj8ljz6plon" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Visarut Tippun</title>
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
-    <!-- favicon -->
-    <link href="favicon.png" rel=icon>
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-    <!-- web-fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+    <base href="/" />
 
-    <!-- font-awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="A new Flutter project." />
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="knot_portfolio" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
 
-    <!-- Style CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-</head>
+    <title>knot_portfolio</title>
+    <link rel="manifest" href="manifest.json" />
 
-
-<body id="page-top" data-spy="scroll" data-target=".navbar">
-
-    <script type="text/javascript">
-        function sendMessageAndroid() {
-            // Android
-            JSBridge.showMessageInNative("success");
-        }
-
-        function sendMessageIOS() {
-            // iOS
-            window.webkit.messageHandlers.jsMessageHandler.postMessage("success");
-        }
+    <script>
+      // The value below is injected by flutter build, do not touch.
+      const serviceWorkerVersion = "661414329";
     </script>
-
-    <div id="main-wrapper">
-        <!-- Page Preloader -->
-        <div id="preloader">
-            <div id="status">
-                <div class="status-mes"></div>
-            </div>
-        </div>
-
-        <div class="columns-block container">
-            <div class="left-col-block blocks">
-                <header class="header theiaStickySidebar">
-                    <div class="profile-img">
-                        <img src="img/img-profile.jpg" class="img-responsive" alt="" />
-                    </div>
-                    <div class="content">
-                        <h1>Visarut Tippun</h1>
-                        <span class="lead">"Knot"</span>
-
-                        <div class="about-text">
-
-
-                            <p>I’m flexible and love to learn new things and I’m positive thinking and fit well with
-                                dynamic team.</p>
-
-
-                            <!-- <p><img src="img/Signature.png" alt="" class="img-responsive"/></p> -->
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <address>
-                                    <strong>Email</strong><br>
-                                    <a href="mailto:knotto.vt@gmail.com">knotto.vt@gmail.com</a>
-                                </address>
-                            </div>
-                        </div>
-                        <strong>Social Media</strong>
-                        <ul class="social-icon">
-
-                            <li><a href="https://www.linkedin.com/in/visarut-tippun/" target="_blank"><i
-                                        class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-
-                            <li><a href="https://www.instagram.com/knottx_/" target="_blank"><i class="fa fa-instagram"
-                                        aria-hidden="true"></i></a></li>
-
-                            <li><a href="https://github.com/knottx" target="_blank"><i class="fa fa-github"
-                                        aria-hidden="true"></i></a></li>
-
-                        </ul>
-                    </div>
-
-                </header>
-                <!-- .header-->
-            </div>
-            <!-- .left-col-block -->
-            <div class="right-col-block blocks">
-                <div class="theiaStickySidebar">
-                    <!-- .section-work-experience -->
-                    <section class="section-wrapper section-experience gray-bg">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-title">
-                                        <h2>Work Experience</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content-item">
-                                        <small>2019 - Now!</small>
-                                        <h3>Lead Mobile Developer</h3>
-                                        <h5>- Senior iOS & Flutter Developer</h5>
-                                        <h4>Smart Soft Asia Co.,Ltd.</h4>
-                                        <p>Bangkok, Thailand <br>
-                                            - Enjoyed mentoring interns and juniors guiding them to write Flutter and iOS native apps.<br>
-                                            - Design and Develop<br>
-                                            &nbsp&nbsp - Native iOS apps with Swift, <a
-                                                href="https://github.com/ReactiveX/RxSwift" target="_blank">RxSwift</a>,
-                                            <a href="https://github.com/Alamofire/Alamofire"
-                                                target="_blank">Alamofire</a>, <a
-                                                href="https://github.com/omise/omise-ios" target="_blank">Omise</a>, <a
-                                                href="https://developer.2c2p.com/docs/sdk-download-sdk"
-                                                target="_blank">2C2P</a>,
-                                            etc.<br>
-
-                                            &nbsp&nbsp - Mobile apps with Flutter using <a
-                                                href="https://github.com/jonataslaw/getx" target="_blank">GetX</a>, <a
-                                                href="https://github.com/flutterchina/dio" target="_blank">Dio</a>, <a
-                                                href="https://github.com/flutter-stripe/flutter_stripe"
-                                                target="_blank">Flutter Stripe</a>, etc.<br>
-                                            &nbsp&nbsp that were distributed through the Google Play Store and Apple App
-                                            store. <br>
-                                            - Investigate, analyze, and improve existing application feature for
-                                            ensuring maximum performance.
-                                        </p>
-                                    </div>
-                                    <div class="content-item">
-                                        <small>2014 - 2015</small>
-                                        <h3>System Engineer</h3>
-                                        <h4>GIS Soft Co.,Ltd.</h4>
-                                        <p>Bangkok, Thailand <br>
-                                            - "AIS Guide and Go" Team. <br>
-                                            - Work with developers to design test cases. <br>
-                                            - R&D defects or possible issues of the software (iOS/Android).
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- .section-education -->
-                    <section class="section-wrapper section-education">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-title">
-                                        <h2>Education</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--.row-->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content-item">
-                                        <small>2010 - 2013</small>
-                                        <h3>Applied Statistics</h3>
-                                        <h4>King Mongkut's Institute of Technology Ladkrabang (KMITL)</h4>
-                                        <p>Bangkok, Thailand</p>
-                                    </div>
-                                    <!-- .education-item -->
-
-                                </div>
-                            </div>
-                            <!--.row-->
-                        </div>
-                        <!-- .container-fluid -->
-                    </section>
-                    <section class="section-wrapper portfolio-section">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-title">
-                                        <h2>Portfolio</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <a class="portfolio-item" href="https://github.com/knottx" target="_blank">
-                                        <div class="portfolio-thumb">
-                                            <img src="img/github-bg.png" alt="GitHub">
-                                        </div>
-
-                                        <div class="portfolio-info">
-                                            <h3>GitHub</h3>
-                                            <small>github.com/knottx</small>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-                    </section>
-                    <!-- .section-certifications -->
-                    <section class="section-wrapper section-education">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-title">
-                                        <h2>Certifications</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--.row-->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content-item">
-                                        <h3>Digital Skills: User Experience</h3>
-                                        <h4>Accenture</h4>
-                                        <small>Issued Dec 2020 - No Expiration Date</small>
-                                        <p>Credential ID: 6dmc2f4 <br>
-                                            <a href="https://www.futurelearn.com/certificates/6dmc2f4"
-                                                target="_blank">See credential</a>
-                                        </p>
-                                    </div>
-                                    <!-- .experience-item -->
-
-                                </div>
-                            </div>
-                            <!--.row-->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content-item">
-                                        <h3>AI For Everyone</h3>
-                                        <h4>Coursera</h4>
-                                        <small>Issued Jun 2019 - No Expiration Date</small>
-                                        <p>Credential ID: 5ZG686PG9DFC <br>
-                                            <a href="https://www.coursera.org/account/accomplishments/verify/5ZG686PG9DFC"
-                                                target="_blank">See credential</a>
-                                        </p>
-                                    </div>
-                                    <!-- .experience-item -->
-
-                                </div>
-                            </div>
-                            <!--.row-->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="content-item">
-                                        <h3>Design A Complete Responsive Business Website From Scratch</h3>
-                                        <h4>Udemy</h4>
-                                        <small>Issued Aug 2019 - No Expiration Date</small>
-                                        <p>Credential ID: UC-4LY1AC5J <br>
-                                            <a href="https://www.udemy.com/certificate/UC-4LY1AC5J/" target="_blank">See
-                                                credential</a>
-                                        </p>
-                                    </div>
-                                    <!-- .experience-item -->
-
-                                </div>
-                            </div>
-                            <!--.row-->
-                        </div>
-                        <!-- .container-fluid -->
-                    </section>
-                    <footer class="footer">
-                        <div class="copyright-section">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="copytext">
-                                            <!-- &copy; Resumex. All rights reserved | Design By: <a href="https://themehippo.com">themehippo</a> -->
-                                            <h4><a href="https://knottx.github.io/">Visarut Tippun</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--.row-->
-                            </div>
-                            <!-- .container-fluid -->
-                        </div>
-                        <!-- .copyright-section -->
-                    </footer>
-                    <!-- .footer -->
-                </div>
-                <!-- Sticky -->
-            </div>
-            <!-- .right-col-block -->
-        </div>
-        <!-- .columns-block -->
-    </div>
-    <!-- #main-wrapper -->
-
-    <!-- jquery -->
-    <script src="js/jquery-2.1.4.min.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/theia-sticky-sidebar.js"></script>
-    <script src="js/scripts.js"></script>
-</body>
-
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+  </head>
+  <body>
+    <script>
+      window.addEventListener("load", function (ev) {
+        // Download main.dart.js
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          },
+          onEntrypointLoaded: function (engineInitializer) {
+            engineInitializer.initializeEngine().then(function (appRunner) {
+              appRunner.runApp();
+            });
+          },
+        });
+      });
+    </script>
+  </body>
 </html>
