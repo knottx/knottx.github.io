@@ -68311,12 +68311,12 @@ A.pP.prototype={}
 A.F7.prototype={
 T(a){var s=null,r="full_name",q="position",p="assets/images/profile.jpg",o=t.F
 return this.c?A.jL(A.a([A.u8(s,A.qC(A.a([A.jL(A.a([A.kr(A.a7X(r),B.aM.dP(B.t).i5(32).dP(B.bu),B.av),B.w7,A.kr(A.a7X(q),B.aM.dP(B.t).i5(16).dP(B.bu).jN(B.k6),B.av),B.cj,this.F8()],o),B.cF,B.al),A.akm(A.Fk(p,s,240))],o),B.b6,B.HD,B.bg),B.v,s,B.y1,s,s,s,s,s),B.dS],o),B.b7,B.al):A.jL(A.a([A.akm(A.Fk(p,s,160)),B.dt,A.kr(A.a7X(r),B.aM.dP(B.t).i5(32).dP(B.bu),s),B.w7,A.kr(A.a7X(q),B.aM.dP(B.t).i5(16).dP(B.bu).jN(B.k6),s),B.cj,this.F8(),B.dt,B.dS],o),B.b6,B.qc)},
-F8(){return A.qC(A.a([A.ahe(B.Dg,new A.Zu()),B.ii,A.ahe(B.Df,new A.Zv()),B.ii,A.ahe(B.DL,new A.Zw())],t.F),B.b6,B.qc,B.bg)}}
+F8(){return A.qC(A.a([A.ahe(B.Df,new A.Zu()),B.ii,A.ahe(B.Dg,new A.Zv()),B.ii,A.ahe(B.DL,new A.Zw())],t.F),B.b6,B.qc,B.bg)}}
 A.Zu.prototype={
-$0(){A.th("https://www.linkedin.com/in/visarut-tippun","_blank")},
+$0(){A.th("https://github.com/knottx","_blank")},
 $S:0}
 A.Zv.prototype={
-$0(){A.th("https://github.com/knottx","_blank")},
+$0(){A.th("https://www.linkedin.com/in/visarut-tippun","_blank")},
 $S:0}
 A.Zw.prototype={
 $0(){A.th("mailto:knotto.vt@gmail.com",null)},
