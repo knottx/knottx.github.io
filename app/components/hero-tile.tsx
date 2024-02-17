@@ -12,6 +12,7 @@ export default function HeroTile() {
             <h2 className="text-md text-sky-500 font-semibold">
               Mobile Developer
             </h2>
+
             <div className="flex flex-row gap-6 pt-4">
               <a href="https://github.com/knottx">
                 <FontAwesomeIcon
