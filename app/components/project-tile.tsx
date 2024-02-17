@@ -42,8 +42,10 @@ export function ProjectImages(project: Project) {
   return (
     <div className="container mx-auto grid h-full grid-cols-3">
       {project.images.slice(0, 4).map((props, index) => (
-        <img
+        <Image
           key={index}
+          width={480}
+          height={480}
           alt={props}
           src={"/" + props}
           className={[
