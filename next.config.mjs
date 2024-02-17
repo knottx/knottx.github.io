@@ -2,9 +2,9 @@
 const nextConfig = {
   output: "export",
   images: {
-    unoptimized: true,
+    domains: ["localhost", "knottx.github.io"],
     loader: "custom",
-    loaderFile: "./image-loader.ts",
+    unoptimized: true,
   },
 };
 
