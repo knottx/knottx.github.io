@@ -47,7 +47,7 @@ export function ProjectImages(project: Project) {
           width={480}
           height={480}
           alt={props}
-          src={"/" + props}
+          src={"./" + props}
           className={[
             "h-auto",
             "max-w-full",
