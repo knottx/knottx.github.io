@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   authors: {
     name: "Visarut Tippun",
   },
+  icons: "./favicon.ico",
 };
 
 export default function RootLayout({
