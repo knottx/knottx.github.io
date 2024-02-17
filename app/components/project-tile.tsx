@@ -1,4 +1,3 @@
-import imageLoader from "@/image-loader";
 import Image from "next/image";
 
 export default function ProjectTile(props: ProjectProps) {
@@ -49,7 +48,6 @@ export function ProjectImages(project: Project) {
           height={480}
           alt={props}
           src={"/" + props}
-          loader={imageLoader}
           className={[
             "h-auto",
             "max-w-full",
