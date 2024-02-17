@@ -309,4 +309,87 @@ export const allProjects: Project[] = [
       "https://play.google.com/store/apps/details?id=com.sabuywash.sabuywashapp",
     gitHubUrl: null,
   },
+
+  {
+    title: "SBITO",
+    subtitle: null,
+    period: "Nov 2020 - Now",
+    isActive: true,
+    description:
+      "",
+    details: [
+    ],
+    appIcon: "sbito-app-icon.png",
+    images: ["sbito-01.png", "sbito-02.png", "sbito-03.png"],
+    appleAppStoreUrl: "https://apps.apple.com/th/app/sbito/id1533272611",
+    googlePlayStoreUrl:
+      null,
+    gitHubUrl: null,
+  },
+  {
+    title: "evRiderz",
+    subtitle: null,
+    period: "Aug 2021 - Mar 2023",
+    isActive: false,
+    description:
+      "",
+    details: [
+    ],
+    appIcon: "evriderz-app-icon.png",
+    // images: ["evriderz-01.png", "evriderz-02.png", "evriderz-03.png"],
+    images: ["iphone15-pro-portrait.png", "iphone15-pro-portrait.png", "iphone15-pro-portrait.png"],
+    appleAppStoreUrl: null,
+    googlePlayStoreUrl:
+      null,
+    gitHubUrl: null,
+  },
+  {
+    title: "evDriverz",
+    subtitle: null,
+    period: "Aug 2021 - Mar 2023",
+    isActive: false,
+    description:
+      "",
+    details: [
+    ],
+    appIcon: "evdriverz-app-icon.png",
+    // images: ["evdriverz-01.png", "evdriverz-02.png", "evdriverz-03.png"],
+    images: ["iphone15-pro-portrait.png", "iphone15-pro-portrait.png", "iphone15-pro-portrait.png"],
+    appleAppStoreUrl: null,
+    googlePlayStoreUrl:
+      null,
+    gitHubUrl: null,
+  },
+  {
+    title: "Rabbit Rewards (v2.0.0 - 2.1.6)",
+    subtitle: null,
+    period: "Nov 2019 - Mar 2023",
+    isActive: false,
+    description:
+      "",
+    details: [
+    ],
+    appIcon: "rabbitrewards-app-icon.png",
+    images: ["rabbitrewards-01.png", "rabbitrewards-02.png", "rabbitrewards-03.png"],
+    appleAppStoreUrl: null,
+    googlePlayStoreUrl:
+      null,
+    gitHubUrl: null,
+  },
+  {
+    title: "Perfumist",
+    subtitle: null,
+    period: "Oct 2019 - Dec 2021",
+    isActive: false,
+    description:
+      "",
+    details: [
+    ],
+    appIcon: "perfumist-app-icon.png",
+    images: ["perfumist-01.png", "perfumist-02.png", "perfumist-03.png"],
+    appleAppStoreUrl: null,
+    googlePlayStoreUrl:
+      null,
+    gitHubUrl: null,
+  }
 ];

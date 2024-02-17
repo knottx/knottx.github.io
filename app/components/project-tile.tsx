@@ -53,7 +53,7 @@ export function ProjectImages(project: Project) {
             "max-w-full",
             "rounded-xl",
             index % 2 == 0 ? "pb-8" : "pt-8",
-            "drop-shadow-lg",
+            "drop-shadow-2xl",
           ].join(" ")}
         />
       ))}
