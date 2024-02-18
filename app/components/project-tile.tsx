@@ -118,7 +118,7 @@ export function ProjectDetail(project: Project) {
           </ul>
         </div>
       ))}
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-row gap-4">
         {project.appleAppStoreUrl != null ? (
           <a href={project.appleAppStoreUrl}>
             <Image
@@ -126,7 +126,7 @@ export function ProjectDetail(project: Project) {
               height={64}
               alt="app-store-badge.png"
               src="/app-store-badge.png"
-              className="w-full h-12"
+              className="w-auto h-10"
             />
           </a>
         ) : null}
@@ -137,10 +137,10 @@ export function ProjectDetail(project: Project) {
               height={64}
               alt="google-play-badge.png"
               src="/google-play-badge.png"
-              className="w-full h-12"
+              className="w-auto h-10"
             />
           </a>
-        ) : null}{" "}
+        ) : null}
         {project.gitHubUrl != null ? (
           <a href={project.gitHubUrl}>
             <Image
@@ -148,12 +148,10 @@ export function ProjectDetail(project: Project) {
               height={64}
               alt="github-badge.png"
               src="/github-badge.png"
-              className="w-full h-12"
+              className="w-auto h-10"
             />
           </a>
-        ) : (
-          <div />
-        )}
+        ) : null}
       </div>
     </div>
   );
