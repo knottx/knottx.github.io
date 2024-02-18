@@ -118,6 +118,43 @@ export function ProjectDetail(project: Project) {
           </ul>
         </div>
       ))}
+      <div className="flex flex-wrap gap-4">
+        {project.appleAppStoreUrl != null ? (
+          <a href={project.appleAppStoreUrl}>
+            <Image
+              width={64}
+              height={64}
+              alt="app-store-badge.png"
+              src="/app-store-badge.png"
+              className="w-full h-12"
+            />
+          </a>
+        ) : null}
+        {project.googlePlayStoreUrl != null ? (
+          <a href={project.googlePlayStoreUrl}>
+            <Image
+              width={64}
+              height={64}
+              alt="google-play-badge.png"
+              src="/google-play-badge.png"
+              className="w-full h-12"
+            />
+          </a>
+        ) : null}{" "}
+        {project.gitHubUrl != null ? (
+          <a href={project.gitHubUrl}>
+            <Image
+              width={128}
+              height={64}
+              alt="github-badge.png"
+              src="/github-badge.png"
+              className="w-full h-12"
+            />
+          </a>
+        ) : (
+          <div />
+        )}
+      </div>
     </div>
   );
 }
