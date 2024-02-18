@@ -406,4 +406,21 @@ export const allProjects: Project[] = [
       null,
     gitHubUrl: "https://github.com/knottx/dota-heroes-flutter",
   }
+  ,
+  {
+    title: "Weather",
+    subtitle: null,
+    startedAt: null,
+    endedAt: null,
+    description:
+      "",
+    details: [
+    ],
+    appIcon: null,
+    images: ["weather-01.png", "weather-02.png", "weather-03.png"],
+    appleAppStoreUrl: null,
+    googlePlayStoreUrl:
+      null,
+    gitHubUrl: null,
+  }
 ];

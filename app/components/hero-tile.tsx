@@ -35,7 +35,7 @@ export default function HeroTile() {
         height={180}
         alt="profile.jpg"
         src="/profile.jpg"
-        className="order-1 sm:order-2 w-auto h-48 sm:h-64 rounded-full"
+        className="order-1 sm:order-2 w-auto h-48 sm:h-64 rounded-full drop-shadow-lg"
       />
     </div>
   );

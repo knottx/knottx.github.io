@@ -126,7 +126,7 @@ export function ProjectDetail(project: Project) {
               height={64}
               alt="app-store-badge.png"
               src="/app-store-badge.png"
-              className="w-auto h-10"
+              className="w-auto h-10 drop-shadow-lg"
             />
           </a>
         ) : null}
@@ -137,7 +137,7 @@ export function ProjectDetail(project: Project) {
               height={64}
               alt="google-play-badge.png"
               src="/google-play-badge.png"
-              className="w-auto h-10"
+              className="w-auto h-10 drop-shadow-lg"
             />
           </a>
         ) : null}
@@ -148,7 +148,7 @@ export function ProjectDetail(project: Project) {
               height={64}
               alt="github-badge.png"
               src="/github-badge.png"
-              className="w-auto h-10"
+              className="w-auto h-10 drop-shadow-lg"
             />
           </a>
         ) : null}
