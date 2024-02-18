@@ -2,8 +2,8 @@ export const allProjects: Project[] = [
   {
     title: "El Mercado Bangkok",
     subtitle: null,
-    period: "Jun 2023 - Now",
-    isActive: true,
+    startedAt: new Date(2023, 5),
+    endedAt: null,
     description:
       "Sole responsibility for front-end development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
     details: [
@@ -74,8 +74,8 @@ export const allProjects: Project[] = [
   {
     title: "Mewing by Mike Mew",
     subtitle: null,
-    period: "Aug 2023 - Now",
-    isActive: true,
+    startedAt: new Date(2023, 7),
+    endedAt: null,
     description:
       "Utilized Flutter (Rewritten from Ionic) for frontend development due to its readability and ease of comprehension for new developers. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
     details: [
@@ -152,8 +152,8 @@ export const allProjects: Project[] = [
   {
     title: "VCTPDS",
     subtitle: "Internal App for Volvo Cars Thailand Central Distribution",
-    period: "Nov 2022 - Now",
-    isActive: true,
+    startedAt: new Date(2023, 10),
+    endedAt: null,
     description:
       "Sole responsibility for front-end development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
     details: [
@@ -211,8 +211,8 @@ export const allProjects: Project[] = [
   {
     title: "JUST (v1.0.2 - 1.0.12)",
     subtitle: null,
-    period: "Mar 2023 - Sep 2023",
-    isActive: false,
+    startedAt: new Date(2023, 2),
+    endedAt: new Date(2023, 8),
     description:
       "Responsibility for front-end development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Refactor from Clean Architecture to GetX Pattern (MVC) for reactive state management. ",
     details: [
@@ -253,8 +253,8 @@ export const allProjects: Project[] = [
   {
     title: "Sabuy Wash (v1.0.0 - 1.0.5)",
     subtitle: null,
-    period: "Oct 2022 - Aug 2023",
-    isActive: false,
+    startedAt: new Date(2022, 9),
+    endedAt: new Date(2023, 7),
     description:
       "Sole responsibility for front-end development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
     details: [
@@ -313,8 +313,8 @@ export const allProjects: Project[] = [
   {
     title: "SBITO",
     subtitle: null,
-    period: "Nov 2020 - Now",
-    isActive: true,
+    startedAt: new Date(2020, 10),
+    endedAt: null,
     description:
       "",
     details: [
@@ -329,15 +329,14 @@ export const allProjects: Project[] = [
   {
     title: "evRiderz",
     subtitle: null,
-    period: "Aug 2021 - Mar 2023",
-    isActive: false,
+    startedAt: new Date(2021, 7),
+    endedAt: new Date(2023, 2),
     description:
       "",
     details: [
     ],
     appIcon: "evriderz-app-icon.png",
-    // images: ["evriderz-01.png", "evriderz-02.png", "evriderz-03.png"],
-    images: ["iphone15-pro-portrait.png", "iphone15-pro-portrait.png", "iphone15-pro-portrait.png"],
+    images: [],
     appleAppStoreUrl: null,
     googlePlayStoreUrl:
       null,
@@ -346,15 +345,14 @@ export const allProjects: Project[] = [
   {
     title: "evDriverz",
     subtitle: null,
-    period: "Aug 2021 - Mar 2023",
-    isActive: false,
+    startedAt: new Date(2021, 7),
+    endedAt: new Date(2023, 2),
     description:
       "",
     details: [
     ],
     appIcon: "evdriverz-app-icon.png",
-    // images: ["evdriverz-01.png", "evdriverz-02.png", "evdriverz-03.png"],
-    images: ["iphone15-pro-portrait.png", "iphone15-pro-portrait.png", "iphone15-pro-portrait.png"],
+    images: [],
     appleAppStoreUrl: null,
     googlePlayStoreUrl:
       null,
@@ -363,8 +361,8 @@ export const allProjects: Project[] = [
   {
     title: "Rabbit Rewards (v2.0.0 - 2.1.6)",
     subtitle: null,
-    period: "Nov 2019 - Mar 2023",
-    isActive: false,
+    startedAt: new Date(2019, 10),
+    endedAt: new Date(2023, 2),
     description:
       "",
     details: [
@@ -379,8 +377,8 @@ export const allProjects: Project[] = [
   {
     title: "Perfumist",
     subtitle: null,
-    period: "Oct 2019 - Dec 2021",
-    isActive: false,
+    startedAt: new Date(2019, 9),
+    endedAt: new Date(2021, 11),
     description:
       "",
     details: [
@@ -391,5 +389,21 @@ export const allProjects: Project[] = [
     googlePlayStoreUrl:
       null,
     gitHubUrl: null,
+  },
+  {
+    title: "Dota Heroes",
+    subtitle: null,
+    startedAt: null,
+    endedAt: null,
+    description:
+      "",
+    details: [
+    ],
+    appIcon: null,
+    images: ["dotaheroes-01.png", "dotaheroes-02.png", "dotaheroes-03.png"],
+    appleAppStoreUrl: null,
+    googlePlayStoreUrl:
+      null,
+    gitHubUrl: "https://github.com/knottx/dota-heroes-flutter",
   }
 ];

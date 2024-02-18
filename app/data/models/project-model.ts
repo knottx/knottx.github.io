@@ -1,16 +1,16 @@
-type Project = {
+interface Project {
   title: string;
   subtitle: string | null;
-  period: string | null;
-  isActive: boolean;
+  startedAt: Date | null;
+  endedAt: Date | null;
   description: string;
   details: ProjectDetail[];
-  appIcon: string;
+  appIcon: string | null;
   images: string[];
   appleAppStoreUrl: string | null;
   googlePlayStoreUrl: string | null;
   gitHubUrl: string | null;
-};
+}
 
 type ProjectDetail = {
   title: string;
