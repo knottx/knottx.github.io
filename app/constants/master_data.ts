@@ -375,6 +375,22 @@ export const allProjects: Project[] = [
     gitHubUrl: null,
   },
   {
+    title: "SCG Family",
+    subtitle: null,
+    startedAt: new Date(2021, 0),
+    endedAt: new Date(2021, 4),
+    description:
+      "",
+    details: [
+    ],
+    appIcon: "scgfamily2020-app-icon.png",
+    images: ["scgfamily2020-01.png", "scgfamily2020-02.png", "scgfamily2020-03.png"],
+    appleAppStoreUrl: null,
+    googlePlayStoreUrl:
+      null,
+    gitHubUrl: null,
+  },
+  {
     title: "Perfumist",
     subtitle: null,
     startedAt: new Date(2019, 9),
