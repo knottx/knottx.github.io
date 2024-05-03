@@ -336,7 +336,7 @@ export const allProjects: Project[] = [
     details: [
     ],
     appIcon: "evriderz-app-icon.png",
-    images: [],
+    images: ["evriderz-01.png", "evriderz-02.png", "evriderz-03.png"],
     appleAppStoreUrl: null,
     googlePlayStoreUrl:
       null,
