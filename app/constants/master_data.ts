@@ -445,7 +445,7 @@ export const allProjects: Project[] = [
       "Flutter project to teach internship student using Bloc Cubit",
     details: [
       {
-        title: "Resource",
+        title: "API",
         bullets: [
           "https://docs.opendota.com/"
         ],
@@ -468,7 +468,7 @@ export const allProjects: Project[] = [
       "Flutter project to teach internship student using GetX",
     details: [
       {
-        title: "Resource",
+        title: "API",
         bullets: [
           "https://openweathermap.org/api"
         ],

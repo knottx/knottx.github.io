@@ -97,7 +97,7 @@ export function ProjectDetail(project: Project) {
               className={[
                 "text-xs",
                 "font-bold",
-                endedAt != null ? "text-gray-400" : "text-sky-500",
+                endedAt != null ? "text-gray-400" : "text-sky-600",
               ].join(" ")}
             >
               {period}
