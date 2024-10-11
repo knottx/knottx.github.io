@@ -332,7 +332,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2021, 7),
     endedAt: new Date(2023, 2),
     description:
-      "",
+      "I created a food ordering, delivery, and transportation platform from scratch. I integrated the 2C2P SDK for secure transactions and utilized Google Maps API for real-time tracking and route optimization. Additionally, I employed RxSwift to enhance the app's responsiveness and maintainability.",
     details: [
     ],
     appIcon: "evriderz-app-icon.png",
@@ -348,7 +348,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2021, 7),
     endedAt: new Date(2023, 2),
     description:
-      "",
+      "As part of the development team for the evDriverz app, designed for drivers to receive orders, I contributed by implementing Socket.IO for real-time status updates. This integration ensured that drivers were promptly notified of new orders and changes in order status, enhancing the overall efficiency of the delivery process.",
     details: [
     ],
     appIcon: "evdriverz-app-icon.png",
@@ -364,8 +364,38 @@ export const allProjects: Project[] = [
     startedAt: new Date(2019, 10),
     endedAt: new Date(2023, 2),
     description:
-      "",
+      "Designed and implemented a new user interface that improved user engagement and overall experience.",
     details: [
+      {
+        title: "Refactoring with RxSwift",
+        bullets: [
+          "Refactored the existing codebase to utilize RxSwift, improving the app's performance and maintainability.",
+        ],
+      },
+      {
+        title: "Point Redemption",
+        bullets: [
+          "Created a seamless process for users to redeem their reward points.",
+        ],
+      },
+      {
+        title: "Subscription Management",
+        bullets: [
+          "Implemented subscription options for users to access premium features.",
+        ],
+      },
+      {
+        title: "User Challenges",
+        bullets: [
+          "Developed user challenges that incentivized point accumulation, enhancing user engagement.",
+        ],
+      },
+      {
+        title: "Card Management",
+        bullets: [
+          "Added functionality for users to add cards, view card information, and connect with partners.",
+        ],
+      },
     ],
     appIcon: "rabbitrewards-app-icon.png",
     images: ["rabbitrewards-01.png", "rabbitrewards-02.png", "rabbitrewards-03.png"],
