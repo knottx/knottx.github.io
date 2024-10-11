@@ -316,7 +316,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2020, 10),
     endedAt: null,
     description:
-      "",
+      "I developed the account opening section of the SBITO mobile app, allowing users to seamlessly create accounts through a step-by-step guided process. Key features include identity verification, selection of account types, and secure data submission. The flow supports multiple account types, including cash balance, credit balance, and mutual fund accounts, while also integrating with major banks for fast validation. This feature enhances the overall user experience by simplifying and speeding up the account creation process.",
     details: [
     ],
     appIcon: "sbito-app-icon.png",
@@ -380,7 +380,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2021, 0),
     endedAt: new Date(2021, 4),
     description:
-      "",
+      "I was responsible for the membership component before the app was discontinued. My contributions included creating both UAT and production environments, as well as implementing cash card registration and related information features.",
     details: [
     ],
     appIcon: "scgfamily2020-app-icon.png",
@@ -391,12 +391,12 @@ export const allProjects: Project[] = [
     gitHubUrl: null,
   },
   {
-    title: "Perfumist",
+    title: "PERFUMIST Perfumes Advisor",
     subtitle: null,
     startedAt: new Date(2019, 9),
     endedAt: new Date(2021, 11),
     description:
-      "",
+      "As part of the development team, I refactored nearly all pages of the app using RxSwift. After the refactoring process, I continued to implement all new features, ensuring optimal performance and a seamless user experience.",
     details: [
     ],
     appIcon: "perfumist-app-icon.png",
@@ -412,8 +412,14 @@ export const allProjects: Project[] = [
     startedAt: null,
     endedAt: null,
     description:
-      "",
+      "Flutter project to teach internship student using Bloc Cubit",
     details: [
+      {
+        title: "Resource",
+        bullets: [
+          "https://docs.opendota.com/"
+        ],
+      },
     ],
     appIcon: null,
     images: ["dotaheroes-01.png", "dotaheroes-02.png", "dotaheroes-03.png"],
@@ -429,8 +435,14 @@ export const allProjects: Project[] = [
     startedAt: null,
     endedAt: null,
     description:
-      "",
+      "Flutter project to teach internship student using GetX",
     details: [
+      {
+        title: "Resource",
+        bullets: [
+          "https://openweathermap.org/api"
+        ],
+      },
     ],
     appIcon: null,
     images: ["weather-01.png", "weather-02.png", "weather-03.png"],
