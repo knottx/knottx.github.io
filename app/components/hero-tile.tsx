@@ -1,5 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedinIn,
+  faGithub,
+  faMedium,
+  faMediumM,
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faFile,
@@ -17,6 +22,13 @@ export default function HeroTile() {
         </h2>
         <div className="flex flex-row gap-6">
           <div className="flex flex-col gap-2">
+            <div className="flex items-center gap-2">
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
+              />
+              <p className="text-xs">knotto.vt@gmail.com</p>
+            </div>
             <a
               href="https://github.com/knottx"
               target="_blank"
@@ -24,9 +36,9 @@ export default function HeroTile() {
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                style={{ color: "#2F2F2F", fontSize: 24, width: 24 }}
+                style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
               />
-              <p className="text-sm text-sky-600">github.com/knottx</p>
+              <p className="text-xs text-sky-600">github.com/knottx</p>
             </a>
             <a
               href="https://www.linkedin.com/in/visarut-tippun"
@@ -35,19 +47,23 @@ export default function HeroTile() {
             >
               <FontAwesomeIcon
                 icon={faLinkedinIn}
-                style={{ color: "#2F2F2F", fontSize: 24, width: 24 }}
+                style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
               />
-              <p className="text-sm text-sky-600">
+              <p className="text-xs text-sky-600">
                 linkedin.com/in/visarut-tippun
               </p>
             </a>
-            <div className="flex items-center gap-2">
+            <a
+              href="https://medium.com/@knottx"
+              target="_blank"
+              className="flex items-center gap-2 text-sky-600"
+            >
               <FontAwesomeIcon
-                icon={faEnvelope}
-                style={{ color: "#2F2F2F", fontSize: 24, width: 24 }}
+                icon={faMediumM}
+                style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
               />
-              <p className="text-sm">knotto.vt@gmail.com</p>
-            </div>
+              <p className="text-xs text-sky-600">medium.com/@knottx</p>
+            </a>
             <a
               href="https://knottx.github.io/resume/visarut-tippun-resume.pdf"
               target="_blank"
@@ -55,9 +71,9 @@ export default function HeroTile() {
             >
               <FontAwesomeIcon
                 icon={faFileAlt}
-                style={{ color: "#2F2F2F", fontSize: 24, width: 24 }}
+                style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
               />
-              <p className="text-sm text-sky-600">Resume</p>
+              <p className="text-xs text-sky-600">Resume</p>
             </a>
           </div>
         </div>
