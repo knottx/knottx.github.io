@@ -73,7 +73,7 @@ export default function HeroTile() {
                 icon={faFileAlt}
                 style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
               />
-              <p className="text-xs text-sky-600">Resume</p>
+              <p className="text-xs text-sky-600">Resume (PDF)</p>
             </a>
           </div>
         </div>

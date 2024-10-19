@@ -1,77 +1,5 @@
 export const allProjects: Project[] = [
   {
-    title: "El Mercado Bangkok",
-    subtitle: null,
-    startedAt: new Date(2023, 5),
-    endedAt: null,
-    description:
-      "Sole responsibility for front-end development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
-    details: [
-      {
-        title: "User Authentication",
-        bullets: [
-          "Implemented seamless email login/register.",
-          "Integrated Apple, Facebook, and Google third-party authentication.",
-        ],
-      },
-      {
-        title: "Product Selection and Cart Management",
-        bullets: [
-          "Developed an intuitive product selection and cart management system.",
-          "Utilized GetX for efficient and reactive cart management.",
-        ],
-      },
-      {
-        title: "Checkout and Payment",
-        bullets: [
-          "Implemented a smooth checkout process allowing users to choose delivery or pickup.",
-          "Option to apply available coupons.",
-          "Integrated payment options such as PromptPay and Credit Card via Stripe.",
-        ],
-      },
-      {
-        title: "Order Tracking",
-        bullets: [
-          "Implemented Firebase Cloud Messaging to get real-time order tracking.",
-          "Users receive notifications for order confirmation, processing, and delivery.",
-        ],
-      },
-      {
-        title: "Dine-In",
-        bullets: ["Implemented Scan QR Code to order in-restaurant dining."],
-      },
-      {
-        title: "Google Maps Integration",
-        bullets: [
-          "Integrated Google Maps for user-friendly address selection and displaying restaurant locations.",
-        ],
-      },
-      {
-        title: "Marketing with Dynamic Links",
-        bullets: [
-          "Utilized Firebase Dynamic Links for marketing purposes, creating shareable links to attract new users",
-        ],
-      },
-      {
-        title: "Analytics and Crash Reporting",
-        bullets: [
-          "Integrated Firebase Crashlytics for crash reporting.",
-          "Utilized Firebase Analytics for gathering insights into user behavior.",
-        ],
-      },
-      {
-        title: "Security Measures",
-        bullets: ["Implemented SSL pinning for secure API communication."],
-      },
-    ],
-    appIcon: "elmercado-app-icon.png",
-    images: ["elmercado-01.png", "elmercado-02.png", "elmercado-03.png"],
-    appleAppStoreUrl: "https://apps.apple.com/th/app/el-mercado/id6468034312",
-    googlePlayStoreUrl:
-      "https://play.google.com/store/apps/details?id=com.sybarite.elmercado",
-    gitHubUrl: null,
-  },
-  {
     title: "Mewing by Mike Mew",
     subtitle: null,
     startedAt: new Date(2023, 7),
@@ -79,14 +7,6 @@ export const allProjects: Project[] = [
     description:
       "Utilized Flutter (Rewritten from Ionic) for frontend development due to its readability and ease of comprehension for new developers. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
     details: [
-      {
-        title: "Intern Training",
-        bullets: [
-          "Used as a teaching tool for interns to learn Flutter development.",
-          "Focused on frontend development to enhance their understanding of UI/UX principles.",
-          "Provides real-world application development experience.",
-        ],
-      },
       {
         title: "User Authentication",
         bullets: [
@@ -209,6 +129,123 @@ export const allProjects: Project[] = [
     gitHubUrl: null,
   },
   {
+    title: "El Mercado Bangkok",
+    subtitle: null,
+    startedAt: new Date(2023, 5),
+    endedAt: null,
+    description:
+      "Sole responsibility for front-end development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
+    details: [
+      {
+        title: "User Authentication",
+        bullets: [
+          "Implemented seamless email login/register.",
+          "Integrated Apple, Facebook, and Google third-party authentication.",
+        ],
+      },
+      {
+        title: "Product Selection and Cart Management",
+        bullets: [
+          "Developed an intuitive product selection and cart management system.",
+          "Utilized GetX for efficient and reactive cart management.",
+        ],
+      },
+      {
+        title: "Checkout and Payment",
+        bullets: [
+          "Implemented a smooth checkout process allowing users to choose delivery or pickup.",
+          "Option to apply available coupons.",
+          "Integrated payment options such as PromptPay and Credit Card via Stripe.",
+        ],
+      },
+      {
+        title: "Order Tracking",
+        bullets: [
+          "Implemented Firebase Cloud Messaging to get real-time order tracking.",
+          "Users receive notifications for order confirmation, processing, and delivery.",
+        ],
+      },
+      {
+        title: "Dine-In",
+        bullets: ["Implemented Scan QR Code to order in-restaurant dining."],
+      },
+      {
+        title: "Google Maps Integration",
+        bullets: [
+          "Integrated Google Maps for user-friendly address selection and displaying restaurant locations.",
+        ],
+      },
+      {
+        title: "Marketing with Dynamic Links",
+        bullets: [
+          "Utilized Firebase Dynamic Links for marketing purposes, creating shareable links to attract new users",
+        ],
+      },
+      {
+        title: "Analytics and Crash Reporting",
+        bullets: [
+          "Integrated Firebase Crashlytics for crash reporting.",
+          "Utilized Firebase Analytics for gathering insights into user behavior.",
+        ],
+      },
+      {
+        title: "Security Measures",
+        bullets: ["Implemented SSL pinning for secure API communication."],
+      },
+    ],
+    appIcon: "elmercado-app-icon.png",
+    images: ["elmercado-01.png", "elmercado-02.png", "elmercado-03.png"],
+    appleAppStoreUrl: "https://apps.apple.com/th/app/el-mercado/id6468034312",
+    googlePlayStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.sybarite.elmercado",
+    gitHubUrl: null,
+  },
+  {
+    title: "El Mercado Staff",
+    subtitle: null,
+    startedAt: new Date(2023, 5),
+    endedAt: null,
+    description:
+      "Flutter-based restaurant management app developed with the Bloc state management pattern to enhance staff efficiency. The app equips restaurant staff with essential tools to",
+    details: [
+      {
+        title: "Product catalog",
+        bullets: [
+          "View available menu items in real-time, ensuring staff are always aware of the current offerings.",
+        ],
+      },
+      {
+        title: "Handle incoming orders",
+        bullets: [
+          "Track new orders seamlessly, allowing staff to organize and fulfill them promptly.",
+        ],
+      },
+      {
+        title: "Monitor dine-in table availability",
+        bullets: [
+          "Visualize the status of dine-in tables, helping staff manage table turnover and reservations more effectively.",
+        ],
+      },
+      {
+        title: "Incident reporting",
+        bullets: [
+          "Allowing staff to quickly report any issues in the restaurant to supervisors or relevant personnel, ensuring fast response times and maintaining operational flow.",
+        ],
+      },
+    ],
+    appIcon: "elmercado-staff-app-icon.png",
+    images: [
+      "elmercado-staff-01.png",
+      "elmercado-staff-02.png",
+      "elmercado-staff-03.png",
+    ],
+    appleAppStoreUrl:
+      "https://apps.apple.com/th/app/el-mercado-staff/id6472040124",
+    googlePlayStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.sybarite.elmercado.staff",
+    gitHubUrl: null,
+  },
+  {
     title: "JUST (v1.0.2 - 1.0.12)",
     subtitle: null,
     startedAt: new Date(2023, 2),
@@ -317,13 +354,11 @@ export const allProjects: Project[] = [
     endedAt: null,
     description:
       "I developed the account opening section of the SBITO mobile app, allowing users to seamlessly create accounts through a step-by-step guided process. Key features include identity verification, selection of account types, and secure data submission. The flow supports multiple account types, including cash balance, credit balance, and mutual fund accounts, while also integrating with major banks for fast validation. This feature enhances the overall user experience by simplifying and speeding up the account creation process.",
-    details: [
-    ],
+    details: [],
     appIcon: "sbito-app-icon.png",
     images: ["sbito-01.png", "sbito-02.png", "sbito-03.png"],
     appleAppStoreUrl: "https://apps.apple.com/th/app/sbito/id1533272611",
-    googlePlayStoreUrl:
-      null,
+    googlePlayStoreUrl: null,
     gitHubUrl: null,
   },
   {
@@ -333,13 +368,11 @@ export const allProjects: Project[] = [
     endedAt: new Date(2023, 2),
     description:
       "I created a food ordering, delivery, and transportation platform from scratch. I integrated the 2C2P SDK for secure transactions and utilized Google Maps API for real-time tracking and route optimization. Additionally, I employed RxSwift to enhance the app's responsiveness and maintainability.",
-    details: [
-    ],
+    details: [],
     appIcon: "evriderz-app-icon.png",
     images: ["evriderz-01.png", "evriderz-02.png", "evriderz-03.png"],
     appleAppStoreUrl: null,
-    googlePlayStoreUrl:
-      null,
+    googlePlayStoreUrl: null,
     gitHubUrl: null,
   },
   {
@@ -349,13 +382,11 @@ export const allProjects: Project[] = [
     endedAt: new Date(2023, 2),
     description:
       "As part of the development team for the evDriverz app, designed for drivers to receive orders, I contributed by implementing Socket.IO for real-time status updates. This integration ensured that drivers were promptly notified of new orders and changes in order status, enhancing the overall efficiency of the delivery process.",
-    details: [
-    ],
+    details: [],
     appIcon: "evdriverz-app-icon.png",
     images: ["evdriverz-01.png", "evdriverz-02.png", "evdriverz-03.png"],
     appleAppStoreUrl: null,
-    googlePlayStoreUrl:
-      null,
+    googlePlayStoreUrl: null,
     gitHubUrl: null,
   },
   {
@@ -398,10 +429,13 @@ export const allProjects: Project[] = [
       },
     ],
     appIcon: "rabbitrewards-app-icon.png",
-    images: ["rabbitrewards-01.png", "rabbitrewards-02.png", "rabbitrewards-03.png"],
+    images: [
+      "rabbitrewards-01.png",
+      "rabbitrewards-02.png",
+      "rabbitrewards-03.png",
+    ],
     appleAppStoreUrl: null,
-    googlePlayStoreUrl:
-      null,
+    googlePlayStoreUrl: null,
     gitHubUrl: null,
   },
   {
@@ -411,13 +445,15 @@ export const allProjects: Project[] = [
     endedAt: new Date(2021, 4),
     description:
       "I was responsible for the membership component before the app was discontinued. My contributions included creating both UAT and production environments, as well as implementing cash card registration and related information features.",
-    details: [
-    ],
+    details: [],
     appIcon: "scgfamily2020-app-icon.png",
-    images: ["scgfamily2020-01.png", "scgfamily2020-02.png", "scgfamily2020-03.png"],
+    images: [
+      "scgfamily2020-01.png",
+      "scgfamily2020-02.png",
+      "scgfamily2020-03.png",
+    ],
     appleAppStoreUrl: null,
-    googlePlayStoreUrl:
-      null,
+    googlePlayStoreUrl: null,
     gitHubUrl: null,
   },
   {
@@ -427,13 +463,11 @@ export const allProjects: Project[] = [
     endedAt: new Date(2021, 11),
     description:
       "As part of the development team, I refactored nearly all pages of the app using RxSwift. After the refactoring process, I continued to implement all new features, ensuring optimal performance and a seamless user experience.",
-    details: [
-    ],
+    details: [],
     appIcon: "perfumist-app-icon.png",
     images: ["perfumist-01.png", "perfumist-02.png", "perfumist-03.png"],
     appleAppStoreUrl: null,
-    googlePlayStoreUrl:
-      null,
+    googlePlayStoreUrl: null,
     gitHubUrl: null,
   },
   {
@@ -441,44 +475,35 @@ export const allProjects: Project[] = [
     subtitle: null,
     startedAt: null,
     endedAt: null,
-    description:
-      "Flutter project to teach internship student using Bloc Cubit",
+    description: "Flutter project to teach internship student using Bloc Cubit",
     details: [
       {
         title: "API",
-        bullets: [
-          "https://docs.opendota.com/"
-        ],
+        bullets: ["https://docs.opendota.com/"],
       },
     ],
     appIcon: null,
     images: ["dotaheroes-01.png", "dotaheroes-02.png", "dotaheroes-03.png"],
     appleAppStoreUrl: null,
-    googlePlayStoreUrl:
-      null,
+    googlePlayStoreUrl: null,
     gitHubUrl: "https://github.com/knottx/dota-heroes-flutter",
-  }
-  ,
+  },
   {
     title: "Weather",
     subtitle: null,
     startedAt: null,
     endedAt: null,
-    description:
-      "Flutter project to teach internship student using GetX",
+    description: "Flutter project to teach internship student using GetX",
     details: [
       {
         title: "API",
-        bullets: [
-          "https://openweathermap.org/api"
-        ],
+        bullets: ["https://openweathermap.org/api"],
       },
     ],
     appIcon: null,
     images: ["weather-01.png", "weather-02.png", "weather-03.png"],
     appleAppStoreUrl: null,
-    googlePlayStoreUrl:
-      null,
+    googlePlayStoreUrl: null,
     gitHubUrl: null,
-  }
+  },
 ];
