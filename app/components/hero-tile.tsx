@@ -30,14 +30,6 @@ export default function HeroTile() {
               />
               <p className="text-xs">knotto.vt@gmail.com</p>
             </div>
-            <div className="flex items-center gap-2">
-              <FontAwesomeIcon
-                icon={faPhone}
-                style={{ color: "#2F2F2F", fontSize: 16, width: 20 }}
-              />
-              <p className="text-xs">063-554-6646</p>
-            </div>
-
             <a
               href="https://github.com/knottx"
               target="_blank"
@@ -74,7 +66,7 @@ export default function HeroTile() {
               <p className="text-xs text-sky-600">medium.com/@knottx</p>
             </a>
             <a
-              href="https://knottx.github.io/resume/visarut-tippun-resume.pdf"
+              href="/visarut-tippun-resume.pdf"
               target="_blank"
               className="flex items-center gap-2 text-sky-600"
             >
