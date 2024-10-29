@@ -5,7 +5,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2023, 7),
     endedAt: null,
     description:
-      "Utilized Flutter (Rewritten from Ionic) for frontend development due to its readability and ease of comprehension for new developers. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
+      "Sole responsibility for utilized Flutter (Rewritten from Ionic) due to its readability and ease of comprehension for new developers. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern and Now move to Bloc already.",
     details: [
       {
         title: "User Authentication",
@@ -206,7 +206,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2023, 5),
     endedAt: null,
     description:
-      "Flutter-based restaurant management app developed with the Bloc state management pattern to enhance staff efficiency. The app equips restaurant staff with essential tools to",
+      "Sole responsibility for front-end development using Flutter with Bloc state management. The app equips restaurant staff with essential tools to",
     details: [
       {
         title: "Product catalog",
@@ -353,7 +353,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2020, 10),
     endedAt: null,
     description:
-      "I developed the account opening section of the SBITO mobile app, allowing users to seamlessly create accounts through a step-by-step guided process. Key features include identity verification, selection of account types, and secure data submission. The flow supports multiple account types, including cash balance, credit balance, and mutual fund accounts, while also integrating with major banks for fast validation. This feature enhances the overall user experience by simplifying and speeding up the account creation process.",
+      "iOS app (native), I developed the account opening section of the SBITO, allowing users to seamlessly create accounts through a step-by-step guided process. Key features include identity verification, selection of account types, and secure data submission. The flow supports multiple account types, including cash balance, credit balance, and mutual fund accounts, while also integrating with major banks for fast validation. This feature enhances the overall user experience by simplifying and speeding up the account creation process.",
     details: [],
     appIcon: "sbito-app-icon.png",
     images: ["sbito-01.png", "sbito-02.png", "sbito-03.png"],
@@ -381,7 +381,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2021, 7),
     endedAt: new Date(2023, 2),
     description:
-      "As part of the development team for the evDriverz app, designed for drivers to receive orders, I contributed by implementing Socket.IO for real-time status updates. This integration ensured that drivers were promptly notified of new orders and changes in order status, enhancing the overall efficiency of the delivery process.",
+      "As part of the development team for the evDriverz iOS app (native), designed for drivers to receive orders, I contributed by implementing Socket.IO for real-time status updates. This integration ensured that drivers were promptly notified of new orders and changes in order status, enhancing the overall efficiency of the delivery process.",
     details: [],
     appIcon: "evdriverz-app-icon.png",
     images: ["evdriverz-01.png", "evdriverz-02.png", "evdriverz-03.png"],
@@ -395,7 +395,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2019, 10),
     endedAt: new Date(2023, 2),
     description:
-      "Designed and implemented a new user interface that improved user engagement and overall experience.",
+      "iOS app (native), Designed and implemented a new user interface that improved user engagement and overall experience.",
     details: [
       {
         title: "Refactoring with RxSwift",
@@ -444,7 +444,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2021, 0),
     endedAt: new Date(2021, 4),
     description:
-      "I was responsible for the membership component before the app was discontinued. My contributions included creating both UAT and production environments, as well as implementing cash card registration and related information features.",
+      "iOS app (native), I was responsible for the membership component before the app was discontinued. My contributions included creating both UAT and production environments, as well as implementing cash card registration and related information features.",
     details: [],
     appIcon: "scgfamily2020-app-icon.png",
     images: [
@@ -462,7 +462,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2019, 9),
     endedAt: new Date(2021, 11),
     description:
-      "As part of the development team, I refactored nearly all pages of the app using RxSwift. After the refactoring process, I continued to implement all new features, ensuring optimal performance and a seamless user experience.",
+      "iOS app (native), As part of the development team, I refactored nearly all pages of the app using RxSwift. After the refactoring process, I continued to implement all new features, ensuring optimal performance and a seamless user experience.",
     details: [],
     appIcon: "perfumist-app-icon.png",
     images: ["perfumist-01.png", "perfumist-02.png", "perfumist-03.png"],
