@@ -75,7 +75,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2023, 10),
     endedAt: null,
     description:
-      "Sole responsibility for front-end development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
+      "Sole responsibility for development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
     details: [
       {
         title: "User Authentication",
@@ -134,7 +134,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2023, 5),
     endedAt: null,
     description:
-      "Sole responsibility for front-end development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
+      "Sole responsibility for development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
     details: [
       {
         title: "User Authentication",
@@ -206,7 +206,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2023, 5),
     endedAt: null,
     description:
-      "Sole responsibility for front-end development using Flutter with Bloc state management. The app equips restaurant staff with essential tools to",
+      "Sole responsibility for development using Flutter with Bloc state management. The app equips restaurant staff with essential tools to",
     details: [
       {
         title: "Product catalog",
@@ -251,7 +251,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2023, 2),
     endedAt: new Date(2023, 8),
     description:
-      "Responsibility for front-end development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Refactor from Clean Architecture to GetX Pattern (MVC) for reactive state management. ",
+      "Responsibility for development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Refactor from Clean Architecture to GetX Pattern (MVC) for reactive state management. ",
     details: [
       {
         title: "User Authentication",
@@ -293,7 +293,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2022, 9),
     endedAt: new Date(2023, 7),
     description:
-      "Sole responsibility for front-end development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
+      "Sole responsibility for development using Flutter. Led the entire process from project initialization to structuring. configure Flavor environment for Dev, Prod, etc. Implemented the GetX Pattern for reactive state management.",
     details: [
       {
         title: "User Authentication",
@@ -367,7 +367,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2021, 7),
     endedAt: new Date(2023, 2),
     description:
-      "I created a food ordering, delivery, and transportation platform from scratch. I integrated the 2C2P SDK for secure transactions and utilized Google Maps API for real-time tracking and route optimization. Additionally, I employed RxSwift to enhance the app's responsiveness and maintainability.",
+      "Led the development of the entire food ordering, delivery, and transportation platform from. I integrated the 2C2P SDK for secure transactions and utilized Google Maps API for real-time tracking and route optimization. Additionally, I employed RxSwift to enhance the app's responsiveness and maintainability.",
     details: [],
     appIcon: "evriderz-app-icon.png",
     images: ["evriderz-01.png", "evriderz-02.png", "evriderz-03.png"],
@@ -381,7 +381,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2021, 7),
     endedAt: new Date(2023, 2),
     description:
-      "As part of the development team for the evDriverz iOS app (native), designed for drivers to receive orders, I contributed by implementing Socket.IO for real-time status updates. This integration ensured that drivers were promptly notified of new orders and changes in order status, enhancing the overall efficiency of the delivery process.",
+      "iOS app (native) with RxSwift, Collaborated closely with another developer to build the evDriverz app, while simultaneously leading the development of evRiderz, I contributed by implementing Socket.IO for real-time status updates. This integration ensured that drivers were promptly notified of new orders and changes in order status, enhancing the overall efficiency of the delivery process.",
     details: [],
     appIcon: "evdriverz-app-icon.png",
     images: ["evdriverz-01.png", "evdriverz-02.png", "evdriverz-03.png"],
@@ -395,7 +395,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2019, 10),
     endedAt: new Date(2023, 2),
     description:
-      "iOS app (native), Designed and implemented a new user interface that improved user engagement and overall experience.",
+      "iOS app (native) with RxSwift, Led the development of the entire app, collaborating closely with the UI/UX designer to design and implement a new user interface that significantly enhanced user engagement and overall experience",
     details: [
       {
         title: "Refactoring with RxSwift",
@@ -462,7 +462,7 @@ export const allProjects: Project[] = [
     startedAt: new Date(2019, 9),
     endedAt: new Date(2021, 11),
     description:
-      "iOS app (native), As part of the development team, I refactored nearly all pages of the app using RxSwift. After the refactoring process, I continued to implement all new features, ensuring optimal performance and a seamless user experience.",
+      "iOS app (native) with RxSwift, Led the development of the entire app, converting all pages to use RxSwift for more efficient and responsive code. After the refactoring process, I continued to implement all new features, ensuring optimal performance and a seamless user experience.",
     details: [],
     appIcon: "perfumist-app-icon.png",
     images: ["perfumist-01.png", "perfumist-02.png", "perfumist-03.png"],
