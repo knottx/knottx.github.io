@@ -129,7 +129,7 @@ export const allProjects: Project[] = [
     gitHubUrl: null,
   },
   {
-    title: "El Mercado Bangkok",
+    title: "El Mercado",
     subtitle: null,
     startedAt: new Date(2023, 5),
     endedAt: null,
