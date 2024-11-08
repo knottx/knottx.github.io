@@ -66,7 +66,7 @@ export default function HeroTile() {
               <p className="text-xs text-sky-600">medium.com/@knottx</p>
             </a>
             <a
-              href="/visarut-tippun-resume.pdf"
+              href="/resume-visarut-tippun.pdf"
               target="_blank"
               className="flex items-center gap-2 text-sky-600"
             >
