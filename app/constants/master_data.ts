@@ -2,7 +2,7 @@ export const allProjects: Project[] = [
   {
     title: "OC Trade",
     subtitle: null,
-    startedAt: new Date(2024, 11),
+    startedAt: new Date(2024, 10),
     endedAt: null,
     description:
       "A copper price booking app for Oriental Copper, simplifying and automating the booking process for convenience. Rewritten from iOS Swift native to Flutter for enhanced flexibility and cross-platform benefits",
@@ -18,7 +18,7 @@ export const allProjects: Project[] = [
   {
     title: "Easy Health",
     subtitle: null,
-    startedAt: new Date(2024, 6),
+    startedAt: new Date(2024, 5),
     endedAt: null,
     description:
       "A food delivery app for Easy Health restaurant, specializing in healthy meals with a feature to track the nutritional intake of each dish and subscription for meal plan (Stripe payment SDK)",
@@ -33,7 +33,7 @@ export const allProjects: Project[] = [
   {
     title: "Foamtec",
     subtitle: null,
-    startedAt: new Date(2023, 11),
+    startedAt: new Date(2023, 10),
     endedAt: null,
     description:
       "A production line tracking app that allows staff to log their work progress at each station by scanning to start, pause, or complete tasks",
