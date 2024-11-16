@@ -40,23 +40,39 @@ export default function ProjectTile(props: ProjectProps) {
 
 export function ProjectImages(project: Project) {
   return (
-    <div className="container mx-auto grid h-full grid-cols-3">
-      {project.images.slice(0, 4).map((props, index) => (
-        <Image
-          key={index}
-          width={480}
-          height={480}
-          alt={props}
-          src={"/" + props}
-          className={[
-            "h-auto",
-            "max-w-full",
-            "rounded-xl",
-            index % 2 == 0 ? "pb-8" : "pt-8",
-            "drop-shadow-2xl",
-          ].join(" ")}
-        />
-      ))}
+    <div>
+      {project.images && project.images.length > 0 ? (
+        <div className="container mx-auto grid h-full grid-cols-3">
+          {project.images.slice(0, 4).map((props, index) => (
+            <Image
+              key={index}
+              width={480}
+              height={480}
+              alt={props}
+              src={"/" + props}
+              className={[
+                "h-auto",
+                "max-w-full",
+                "rounded-xl",
+                index % 2 === 0 ? "pb-8" : "pt-8",
+                "drop-shadow-2xl",
+              ].join(" ")}
+            />
+          ))}
+        </div>
+      ) : project.tabletImage ? (
+        <div>
+          <Image
+            width={800}
+            height={600}
+            alt={project.tabletImage}
+            src={"/" + project.tabletImage}
+            className="h-auto max-w-full rounded-xl drop-shadow-2xl"
+          />
+        </div>
+      ) : (
+        <p className="text-center text-gray-500">No images available</p>
+      )}
     </div>
   );
 }

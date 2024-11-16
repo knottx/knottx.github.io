@@ -7,6 +7,7 @@ interface Project {
   details: ProjectDetail[];
   appIcon: string | null;
   images: string[];
+  tabletImage: string | null;
   appleAppStoreUrl: string | null;
   googlePlayStoreUrl: string | null;
   gitHubUrl: string | null;
