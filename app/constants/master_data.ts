@@ -6,7 +6,7 @@ export const allProjects: Project[] = [
     endedAt: null,
     descriptions: [
       "A copper price booking app for Oriental Copper, simplifying and automating the booking process for convenience.",
-      "Developed entirely rewritten from iOS Swift to Flutter as the sole developer, utilizing Bloc for state management, preserving all existing features while optimizing performance and maintaining the user experience. This includes implementing functionalities such as login, registration, price charts, booking, product catalog, notifications, account management, change PIN, and change password, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, SSL pinning to enhance security, and separate configurations for development and production environments",
+      "Developed entirely rewritten from iOS Swift to Flutter as the sole developer, utilizing Bloc for state management, preserving all existing features while optimizing performance and maintaining the user experience. This includes implementing functionalities such as login, registration, price charts, booking, product catalog, notifications list, account management, change PIN, and change password, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development and production environments",
     ],
     details: [],
     appIcon: "oc-trade-app-icon.png",
@@ -24,7 +24,7 @@ export const allProjects: Project[] = [
     endedAt: null,
     descriptions: [
       "A food delivery app for Easy Health restaurant, specializing in healthy meals with a feature to track the nutritional intake of each dish and subscription for meal plan",
-      "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc for state management. Key features include login options (Apple, Facebook, Google, and email), email registration, a home page, branch list, product listing, cart management, checkout with Stripe SDK for payments, order summary, order status and history, multi-language support, push notifications, a profile page, an edit profile page, share images of meals to other apps, such as Instagram, integrate Google Maps for branches location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
+      "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc for state management. Key features include login options (Apple, Facebook, Google, and email), email registration, a home page, branch list, product listing, cart management, checkout with Stripe SDK for payments, order summary, order status and history, multi-language support, push notifications, a profile page, an edit profile page, share images of meals to other apps, such as Instagram, integrate Google Maps for branches location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
     ],
     details: [],
     appIcon: "easy-health-app-icon.png",
@@ -77,7 +77,7 @@ export const allProjects: Project[] = [
     endedAt: null,
     descriptions: [
       "A food delivery app for El Mercado restaurant",
-      "Developed entirely from scratch in Flutter as the sole developer, utilizing GetX for state management. Key features include login options (Apple, Google, and email), email registration, a home page, product listing, cart management, checkout with Stripe SDK for payments, order summary, order status and history, multi-language support, push notifications, a profile page, an edit profile page, QR code scanning for dine-in ordering, integrate Google Maps for branches location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Dynamic Links for marketing purposes, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
+      "Developed entirely from scratch in Flutter as the sole developer, utilizing GetX for state management. Key features include login options (Apple, Google, and email), email registration, a home page, product listing, cart management, checkout with Stripe SDK for payments, order summary, order status and history, multi-language support, push notifications, a profile page, an edit profile page, QR code scanning for dine-in ordering, integrate Google Maps for branches location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, Firebase Dynamic Links for marketing purposes, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
     ],
     details: [],
     appIcon: "elmercado-app-icon.png",
@@ -95,7 +95,7 @@ export const allProjects: Project[] = [
     endedAt: null,
     descriptions: [
       "An internal app for El Mercado staff",
-      "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc for state management. Key features include login, product catalog, order management, table service management, incident reporting, multi-language support, push notifications, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
+      "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc for state management. Key features include login, product catalog, order management, table service management, incident reporting, multi-language support, push notifications, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
     ],
     details: [],
     appIcon: "elmercado-staff-app-icon.png",
@@ -118,7 +118,7 @@ export const allProjects: Project[] = [
     endedAt: new Date(2023, 8),
     descriptions: [
       "A management tool for Volvo Thailand's central warehouse, featuring car inventory management, document scanning, inspections, and damage reporting",
-      "Led development using Flutter, utilizing GetX for state management. Key features include login options (Apple, Facebook, Google, and email), email registration, car listing, submit car for sale, request loan process, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, SSL pinning to enhance security, and separate configurations for development and production environments",
+      "Led development using Flutter, utilizing GetX for state management. Key features include login options (Apple, Facebook, Google, and email), email registration, car listing, submit car for sale, request loan process, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development and production environments",
     ],
     details: [],
     appIcon: "just-app-icon.png",
@@ -153,7 +153,7 @@ export const allProjects: Project[] = [
     endedAt: new Date(2023, 7),
     descriptions: [
       "A location-based app to find and pay for nearby laundry machines at Sabuy Wash laundromats",
-      "Developed entirely from scratch in Flutter as the sole developer, utilizing GetX for state management. Key features include login, email registration, integrate Google Maps for branch locations, order Status, branch information, machine selection and payment, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Dynamic Links for marketing purposes, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
+      "Developed entirely from scratch in Flutter as the sole developer, utilizing GetX for state management. Key features include login, email registration, integrate Google Maps for branch locations, order Status, branch information, machine selection and payment, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, Firebase Dynamic Links for marketing purposes, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
     ],
     details: [],
     appIcon: "sabuywash-app-icon.png",
@@ -172,7 +172,7 @@ export const allProjects: Project[] = [
     endedAt: null,
     descriptions: [
       "A reward redemption and account management app for SBI Thai Online (SBITO) customers",
-      "Responsibility for developed the account opening section using RxSwift. Key features include identity verification, selection of account types, and secure data submission. The flow supports multiple account types, including cash balance, credit balance, and mutual fund accounts, while also integrating with major banks for fast validation. This feature enhances the overall user experience by simplifying and speeding up the account creation process.",
+      "Responsibility for developed the account opening section using RxSwift. Key features include identity verification, selection of account types, and secure data submission. The flow supports multiple account types, including cash balance, credit balance, and mutual fund accounts, while also integrating with major banks for fast validation. This feature enhances the overall user experience by simplifying and speeding up the account creation process, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, and separate configurations for development, UAT, and production environments",
     ],
     details: [],
     appIcon: "sbito-app-icon.png",
@@ -189,7 +189,7 @@ export const allProjects: Project[] = [
     endedAt: new Date(2023, 2),
     descriptions: [
       "A dual-purpose app for food delivery and transportation services",
-      "iOS app (native) with RxSwift, Developed entirely from scratch as the sole developer. Key features include login options (Apple, Facebook, Google, and email), email registration, a home page, restaurant list, product listing, cart management, checkout with 2C2P SDK for payments, order status and history, multi-language support, push notifications, a profile page, an edit profile page, integrate Google Maps for branches location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Dynamic Links for marketing purposes, and separate configurations for development, UAT, and production environments",
+      "iOS app (native) with RxSwift, Developed entirely from scratch as the sole developer. Key features include login options (Apple, Facebook, Google, and email), email registration, a home page, restaurant list, product listing, cart management, checkout with 2C2P SDK for payments, order status and history, multi-language support, push notifications, a profile page, an edit profile page, integrate Google Maps for branches location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, Firebase Dynamic Links for marketing purposes, and separate configurations for development, UAT, and production environments",
     ],
     details: [],
     appIcon: "evriderz-app-icon.png",
@@ -206,7 +206,7 @@ export const allProjects: Project[] = [
     endedAt: new Date(2023, 2),
     descriptions: [
       "An app for Driver to recieve ride jobs from evRiderz",
-      "iOS app (native) with RxSwift, Led development entirely from scratch. Key features include login, registration, a home page, implementing Socket.IO for real-time status updates. This integration ensured that drivers were promptly notified of new orders, order detail, incomes status, multi-language support, push notifications, a profile page, an edit profile page, integrate Google Maps for restaurant and destination location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, and separate configurations for development, UAT, and production environments",
+      "iOS app (native) with RxSwift, Led development entirely from scratch. Key features include login, registration, a home page, implementing Socket.IO for real-time status updates. This integration ensured that drivers were promptly notified of new orders, order detail, incomes status, multi-language support, push notifications, a profile page, an edit profile page, integrate Google Maps for restaurant and destination location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, and separate configurations for development, UAT, and production environments",
     ],
     details: [],
     appIcon: "evdriverz-app-icon.png",
@@ -223,40 +223,9 @@ export const allProjects: Project[] = [
     endedAt: new Date(2023, 2),
     descriptions: [
       "A loyalty app for redeeming rewards and subscription for trips",
-      "iOS app (native) with RxSwift, Led the development of the entire app, collaborating closely with the UI/UX designer to design and implement a new user interface that significantly enhanced user engagement and overall experience",
+      "iOS app (native) with RxSwift, Led the development of the entire app. Key features include login, registration, point redemption, subscription management, user challenges, card management, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, Firebase Dynamic Links for marketing purposes, and separate configurations for development, UAT, and production environments",
     ],
-    details: [
-      {
-        title: "Refactoring with RxSwift",
-        bullets: [
-          "Refactored the existing codebase to utilize RxSwift, improving the app's performance and maintainability.",
-        ],
-      },
-      {
-        title: "Point Redemption",
-        bullets: [
-          "Created a seamless process for users to redeem their reward points.",
-        ],
-      },
-      {
-        title: "Subscription Management",
-        bullets: [
-          "Implemented subscription options for users to access premium features.",
-        ],
-      },
-      {
-        title: "User Challenges",
-        bullets: [
-          "Developed user challenges that incentivized point accumulation, enhancing user engagement.",
-        ],
-      },
-      {
-        title: "Card Management",
-        bullets: [
-          "Added functionality for users to add cards, view card information, and connect with partners.",
-        ],
-      },
-    ],
+    details: [],
     appIcon: "rabbitrewards-app-icon.png",
     images: [
       "rabbitrewards-01.png",
