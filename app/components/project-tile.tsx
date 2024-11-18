@@ -121,7 +121,11 @@ export function ProjectDetail(project: Project) {
           ) : null}
         </div>
       </div>
-      <p className="text-xs text-gray-500">{project.description}</p>
+      {project.descriptions.map((description, descriptionIndex) => (
+        <p key={descriptionIndex} className="text-xs text-gray-500">
+          {description}
+        </p>
+      ))}
       {project.details.map((detail, detailIndex) => (
         <div key={detailIndex} className="flex flex-col">
           <p className="text-xs text-gray-700 font-semibold">{detail.title}</p>

@@ -3,7 +3,7 @@ interface Project {
   subtitle: string | null;
   startedAt: Date | null;
   endedAt: Date | null;
-  description: string;
+  descriptions: string[];
   details: ProjectDetail[];
   appIcon: string | null;
   images: string[];
