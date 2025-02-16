@@ -65,7 +65,7 @@ export default function HeroTile() {
               />
               <p className="text-xs text-sky-600">medium.com/@knottx</p>
             </a>
-            <a
+            {/* <a
               href="/resume-visarut-tippun.pdf"
               target="_blank"
               className="flex items-center gap-2 text-sky-600"
@@ -75,7 +75,7 @@ export default function HeroTile() {
                 style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
               />
               <p className="text-xs text-sky-600">Resume (PDF)</p>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
