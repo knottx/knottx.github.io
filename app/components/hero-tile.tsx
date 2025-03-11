@@ -4,6 +4,7 @@ import {
   faGithub,
   faMedium,
   faMediumM,
+  faDartLang,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
@@ -54,7 +55,7 @@ export default function HeroTile() {
                 linkedin.com/in/visarut-tippun
               </p>
             </a>
-            <a
+            {/* <a
               href="https://medium.com/@knottx"
               target="_blank"
               className="flex items-center gap-2 text-sky-600"
@@ -64,6 +65,17 @@ export default function HeroTile() {
                 style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
               />
               <p className="text-xs text-sky-600">medium.com/@knottx</p>
+            </a> */}
+            <a
+              href="https://pub.dev/publishers/knottx.dev"
+              target="_blank"
+              className="flex items-center gap-2 text-sky-600"
+            >
+              <FontAwesomeIcon
+                icon={faDartLang}
+                style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
+              />
+              <p className="text-xs text-sky-600">pub.dev</p>
             </a>
             {/* <a
               href="/resume-visarut-tippun.pdf"
