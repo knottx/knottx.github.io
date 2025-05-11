@@ -77,24 +77,6 @@ export default function HeroTile() {
               />
               <p className="text-xs text-sky-600">pub.dev</p>
             </a>
-            <a
-              href="app_template://product/123"
-              target="_blank"
-              className="flex items-center gap-2 text-sky-600"
-            >
-              <p className="text-xs text-sky-600">
-                test app_template://product/123
-              </p>
-            </a>
-            <a
-              href="app_template://knottx.dev/product/123"
-              target="_blank"
-              className="flex items-center gap-2 text-sky-600"
-            >
-              <p className="text-xs text-sky-600">
-                test app_template://knottx.dev/product/123
-              </p>
-            </a>
             {/* <a
               href="/resume-visarut-tippun.pdf"
               target="_blank"
