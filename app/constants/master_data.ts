@@ -21,7 +21,7 @@ export const allProjects: Project[] = [
     title: "Easy Health",
     subtitle: null,
     startedAt: new Date(2024, 5),
-    endedAt: null,
+    endedAt: new Date(2025, 1),
     descriptions: [
       "A food delivery app for Easy Health restaurant, specializing in healthy meals with a feature to track the nutritional intake of each dish and subscription for meal plan",
       "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc for state management. Key features include login options (Apple, Facebook, Google, and email), email registration, a home page, branch list, product listing, cart management, checkout with Stripe SDK for payments, order summary, order status and history, multi-language support, push notifications, a profile page, an edit profile page, share images of meals to other apps, such as Instagram, integrate Google Maps for branches location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
@@ -38,7 +38,7 @@ export const allProjects: Project[] = [
     title: "Foamtec",
     subtitle: null,
     startedAt: new Date(2023, 10),
-    endedAt: null,
+    endedAt: new Date(2025, 1),
     descriptions: [
       "A production line tracking app that allows staff to log their work progress at each station by scanning to start, pause, or complete tasks",
       "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc for state management. Key features include task list, task detail, scan emplyee ID, scan work center and materials before start, submit quantity,and print label with Honeywell SDK for printing",
@@ -55,7 +55,7 @@ export const allProjects: Project[] = [
     title: "Mewing by Mike Mew",
     subtitle: null,
     startedAt: new Date(2023, 7),
-    endedAt: null,
+    endedAt: new Date(2025, 1),
     descriptions: [
       "Guided self-practice app for Mewing exercises with input from Dr. Mike Mew, the pioneer of Mewing techniques, The app offers subscription options on the Apple App Store and Google Play Store, transitioning from a paid model to a freemium model (free download with subscription plans)",
       "Developed entirely rewritten from Ionic to Flutter as the sole developer. Initially using GetX for state management, it was later migrated to Bloc for better scalability and maintainability. Key features include login options (Apple, Facebook, Google, and email), email registration, a home page displaying practice programs, a selfie feature for tracking changes over time, a weekly well-being questionnaire, data visualization charts, blocking screen capture or recording in the video player, local notifications for reminders, multi-language support, A/B testing to optimize the user journey, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, SSL pinning to enhance security, and separate configurations for development, and production environments",
@@ -74,7 +74,7 @@ export const allProjects: Project[] = [
     title: "El Mercado",
     subtitle: null,
     startedAt: new Date(2023, 5),
-    endedAt: null,
+    endedAt: new Date(2025, 1),
     descriptions: [
       "A food delivery app for El Mercado restaurant",
       "Developed entirely from scratch in Flutter as the sole developer, utilizing GetX for state management. Key features include login options (Apple, Google, and email), email registration, a home page, product listing, cart management, checkout with Stripe SDK for payments, order summary, order status and history, multi-language support, push notifications, a profile page, an edit profile page, QR code scanning for dine-in ordering, integrate Google Maps for branches location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, Firebase Dynamic Links for marketing purposes, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
@@ -92,7 +92,7 @@ export const allProjects: Project[] = [
     title: "El Mercado Staff",
     subtitle: null,
     startedAt: new Date(2023, 5),
-    endedAt: null,
+    endedAt: new Date(2025, 1),
     descriptions: [
       "An internal app for El Mercado staff",
       "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc for state management. Key features include login, product catalog, order management, table service management, incident reporting, multi-language support, push notifications, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
@@ -133,7 +133,7 @@ export const allProjects: Project[] = [
     title: "VCTPDS",
     subtitle: "Internal App for Volvo Cars Thailand Central Distribution",
     startedAt: new Date(2022, 10),
-    endedAt: null,
+    endedAt: new Date(2025, 1),
     descriptions: [
       "A management tool for Volvo Thailand's central warehouse",
       "Developed entirely from scratch in Flutter as the sole developer, utilizing GetX for state management. Key features include login, car management, scan VIN numbers for quick identification, document scanning, SSL pinning to enhance security, and separate configurations for development, and production environments",
@@ -169,7 +169,7 @@ export const allProjects: Project[] = [
     title: "SBITO",
     subtitle: null,
     startedAt: new Date(2020, 10),
-    endedAt: null,
+    endedAt: new Date(2025, 1),
     descriptions: [
       "A reward redemption and account management app for SBI Thai Online (SBITO) customers",
       "Responsibility for developed the account opening section using RxSwift. Key features include identity verification, selection of account types, and secure data submission. The flow supports multiple account types, including cash balance, credit balance, and mutual fund accounts, while also integrating with major banks for fast validation. This feature enhances the overall user experience by simplifying and speeding up the account creation process, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, and separate configurations for development, UAT, and production environments",
