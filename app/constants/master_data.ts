@@ -6,7 +6,7 @@ export const allProjects: Project[] = [
     endedAt: null,
     descriptions: [
       "A copper price booking app for Oriental Copper, simplifying and automating the booking process for convenience.",
-      "Developed entirely rewritten from iOS Swift to Flutter as the sole developer, utilizing Bloc for state management, preserving all existing features while optimizing performance and maintaining the user experience. This includes implementing functionalities such as login, registration, price charts, booking, product catalog, notifications list, account management, change PIN, and change password, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development and production environments",
+      "Developed entirely rewritten from iOS Swift to Flutter as the sole developer, utilizing Bloc/Cubit for state management, preserving all existing features while optimizing performance and maintaining the user experience. This includes implementing functionalities such as login, registration, price charts, booking, product catalog, notifications list, account management, change PIN, and change password, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development and production environments",
     ],
     details: [],
     appIcon: "oc-trade-app-icon.png",
@@ -24,7 +24,7 @@ export const allProjects: Project[] = [
     endedAt: new Date(2025, 0),
     descriptions: [
       "A food delivery app for Easy Health restaurant, specializing in healthy meals with a feature to track the nutritional intake of each dish and subscription for meal plan",
-      "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc for state management. Key features include login options (Apple, Facebook, Google, and email), email registration, a home page, branch list, product listing, cart management, checkout with Stripe SDK for payments, order summary, order status and history, multi-language support, push notifications, a profile page, an edit profile page, share images of meals to other apps, such as Instagram, integrate Google Maps for branches location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
+      "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc/Cubit for state management. Key features include login options (Apple, Facebook, Google, and email), email registration, a home page, branch list, product listing, cart management, checkout with Stripe SDK for payments, order summary, order status and history, multi-language support, push notifications, a profile page, an edit profile page, share images of meals to other apps, such as Instagram, integrate Google Maps for branches location and address, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
     ],
     details: [],
     appIcon: "easy-health-app-icon.png",
@@ -42,7 +42,7 @@ export const allProjects: Project[] = [
     endedAt: new Date(2025, 0),
     descriptions: [
       "A production line tracking app that allows staff to log their work progress at each station by scanning to start, pause, or complete tasks",
-      "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc for state management. Key features include task list, task detail, scan emplyee ID, scan work center and materials before start, submit quantity,and print label with Honeywell SDK for printing",
+      "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc/Cubit for state management. Key features include task list, task detail, scan emplyee ID, scan work center and materials before start, submit quantity,and print label with Honeywell SDK for printing",
     ],
     details: [],
     appIcon: "foamtec-app-icon.png",
@@ -59,7 +59,7 @@ export const allProjects: Project[] = [
     endedAt: new Date(2025, 0),
     descriptions: [
       "Guided self-practice app for Mewing exercises with input from Dr. Mike Mew, the pioneer of Mewing techniques, The app offers subscription options on the Apple App Store and Google Play Store, transitioning from a paid model to a freemium model (free download with subscription plans)",
-      "Developed entirely rewritten from Ionic to Flutter as the sole developer. Initially using GetX for state management, it was later migrated to Bloc for better scalability and maintainability. Key features include login options (Apple, Facebook, Google, and email), email registration, a home page displaying practice programs, a selfie feature for tracking changes over time, a weekly well-being questionnaire, data visualization charts, blocking screen capture or recording in the video player, local notifications for reminders, multi-language support, A/B testing to optimize the user journey, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, SSL pinning to enhance security, and separate configurations for development, and production environments",
+      "Developed entirely rewritten from Ionic to Flutter as the sole developer. Initially using GetX for state management, it was later migrated to Bloc/Cubit for better scalability and maintainability. Key features include login options (Apple, Facebook, Google, and email), email registration, a home page displaying practice programs, a selfie feature for tracking changes over time, a weekly well-being questionnaire, data visualization charts, blocking screen capture or recording in the video player, local notifications for reminders, multi-language support, A/B testing to optimize the user journey, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, SSL pinning to enhance security, and separate configurations for development, and production environments",
     ],
     details: [],
     appIcon: "mewing-app-icon.png",
@@ -96,7 +96,7 @@ export const allProjects: Project[] = [
     endedAt: new Date(2025, 0),
     descriptions: [
       "An internal app for El Mercado staff",
-      "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc for state management. Key features include login, product catalog, order management, table service management, incident reporting, multi-language support, push notifications, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
+      "Developed entirely from scratch in Flutter as the sole developer, utilizing Bloc/Cubit for state management. Key features include login, product catalog, order management, table service management, incident reporting, multi-language support, push notifications, Firebase Analytics for user behavior tracking, Firebase Crashlytics for real-time error monitoring, Firebase Cloud Messaging for push notifications, SSL pinning to enhance security, and separate configurations for development, UAT, and production environments",
     ],
     details: [],
     appIcon: "elmercado-staff-app-icon.png",
@@ -282,7 +282,7 @@ export const allProjects: Project[] = [
     startedAt: null,
     endedAt: null,
     descriptions: [
-      "Flutter project to teach internship student using Bloc Cubit",
+      "Flutter project to teach internship student using Bloc/Cubit",
     ],
     details: [
       {
