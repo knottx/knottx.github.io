@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Theme is set on <html data-theme="light|dark"> by themeInitScript in components/theme-toggle.tsx. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+}
+
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-white text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100;
+}
+
+::selection {
+  @apply bg-blue-600/15 dark:bg-blue-400/25;
+}
+
+/* One consistent, visible focus style for keyboard users. */
+:focus-visible {
+  @apply rounded-md outline-2 outline-offset-2 outline-blue-600 dark:outline-blue-400;
+}
+
+[id] {
+  scroll-margin-top: 1.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}

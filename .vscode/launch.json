@@ -1,0 +1,65 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next.js: debug server-side",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "--inspect",
+        "${workspaceFolder}/node_modules/next/dist/bin/next",
+        "dev",
+        "--port",
+        "3000"
+      ],
+      "env": {
+        "NODE_OPTIONS": "--enable-source-maps"
+      },
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"],
+      "autoAttachChildProcesses": true
+    },
+    {
+      "name": "Next.js: debug client-side",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true
+    },
+    {
+      "name": "Next.js: debug full stack",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "--inspect",
+        "${workspaceFolder}/node_modules/next/dist/bin/next",
+        "dev",
+        "--port",
+        "3000"
+      ],
+      "env": {
+        "NODE_OPTIONS": "--enable-source-maps"
+      },
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"],
+      "autoAttachChildProcesses": true,
+      "serverReadyAction": {
+        "pattern": "Local:\\s+(https?://localhost:\\d+)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome"
+      }
+    },
+    {
+      "name": "Attach to running Next.js",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "restart": true
+    }
+  ]
+}
