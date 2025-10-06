@@ -41,9 +41,9 @@ export default function ProjectTile(props: ProjectProps) {
 export function ProjectImages(project: Project) {
   return (
     <div>
-      {project.images && project.images.length > 0 ? (
+      {project.images.length > 0 ? (
         <div className="container mx-auto grid h-full grid-cols-3">
-          {project.images.slice(0, 4).map((props, index) => (
+          {project.images.slice(0, 3).map((props, index) => (
             <Image
               key={index}
               width={480}
@@ -55,6 +55,7 @@ export function ProjectImages(project: Project) {
                 "max-w-full",
                 "rounded-xl",
                 index % 2 === 0 ? "pb-8" : "pt-8",
+                project.images.length === 1 ? "col-start-2" : "",
                 "drop-shadow-2xl",
               ].join(" ")}
             />
@@ -181,6 +182,15 @@ export function ProjectDetail(project: Project) {
               </div>
             ))
           : null}
+        {project.websiteUrl != null ? (
+          <a
+            href={project.websiteUrl}
+            target="_blank"
+            className="text-blue-600 hover:text-blue-800 underline hover:no-underline"
+          >
+            Go to Website
+          </a>
+        ) : null}
       </div>
     </div>
   );

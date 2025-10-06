@@ -1,5 +1,5 @@
 import ProjectTile from "./components/project-tile";
-import { allProjects } from "./constants/master_data";
+import { allProjects } from "./constants/master-data";
 import HeroTile from "./components/hero-tile";
 
 export default function Home() {

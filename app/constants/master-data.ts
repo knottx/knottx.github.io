@@ -1,5 +1,20 @@
 export const allProjects: Project[] = [
   {
+    title: "Minesweeper",
+    subtitle: null,
+    startedAt: null,
+    endedAt: null,
+    descriptions: ["A classic minesweeper game built with Flutter"],
+    details: [],
+    appIcon: null,
+    images: [],
+    tabletImage: "minesweeper-01.png",
+    appleAppStoreUrl: null,
+    googlePlayStoreUrl: null,
+    gitHubUrls: null,
+    websiteUrl: "https://knottx.dev/minesweeper",
+  },
+  {
     title: "OC Trade",
     subtitle: null,
     startedAt: new Date(2024, 10),
@@ -16,6 +31,7 @@ export const allProjects: Project[] = [
     googlePlayStoreUrl:
       "https://play.google.com/store/apps/details?id=com.orientalcopper.app",
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "Easy Health",
@@ -34,6 +50,7 @@ export const allProjects: Project[] = [
     googlePlayStoreUrl:
       "https://play.google.com/store/apps/details?id=com.easyHealth.app",
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "Foamtec",
@@ -51,6 +68,7 @@ export const allProjects: Project[] = [
     appleAppStoreUrl: null,
     googlePlayStoreUrl: null,
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "Mewing by Mike Mew",
@@ -70,6 +88,7 @@ export const allProjects: Project[] = [
     googlePlayStoreUrl:
       "https://play.google.com/store/apps/details?id=com.orthotropics.mewing",
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "El Mercado",
@@ -88,6 +107,7 @@ export const allProjects: Project[] = [
     googlePlayStoreUrl:
       "https://play.google.com/store/apps/details?id=com.sybarite.elmercado",
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "El Mercado Staff",
@@ -111,6 +131,7 @@ export const allProjects: Project[] = [
     googlePlayStoreUrl:
       "https://play.google.com/store/apps/details?id=com.sybarite.elmercado.staff",
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "JUST (v1.0.2 - 1.0.12)",
@@ -129,6 +150,7 @@ export const allProjects: Project[] = [
     googlePlayStoreUrl:
       "https://play.google.com/store/apps/details?id=com.justcar.justcar",
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "VCTPDS",
@@ -146,6 +168,7 @@ export const allProjects: Project[] = [
     appleAppStoreUrl: null,
     googlePlayStoreUrl: null,
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "Sabuy Wash (v1.0.0 - 1.0.5)",
@@ -164,6 +187,7 @@ export const allProjects: Project[] = [
     googlePlayStoreUrl:
       "https://play.google.com/store/apps/details?id=com.sabuywash.sabuywashapp",
     gitHubUrls: null,
+    websiteUrl: null,
   },
 
   {
@@ -182,6 +206,7 @@ export const allProjects: Project[] = [
     appleAppStoreUrl: "https://apps.apple.com/th/app/sbito/id1533272611",
     googlePlayStoreUrl: null,
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "evRiderz",
@@ -199,6 +224,7 @@ export const allProjects: Project[] = [
     appleAppStoreUrl: null,
     googlePlayStoreUrl: null,
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "evDriverz",
@@ -216,6 +242,7 @@ export const allProjects: Project[] = [
     appleAppStoreUrl: null,
     googlePlayStoreUrl: null,
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "Rabbit Rewards (v2.0.0 - 2.1.6)",
@@ -237,6 +264,7 @@ export const allProjects: Project[] = [
     appleAppStoreUrl: null,
     googlePlayStoreUrl: null,
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "SCG Family",
@@ -258,6 +286,7 @@ export const allProjects: Project[] = [
     appleAppStoreUrl: null,
     googlePlayStoreUrl: null,
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "PERFUMIST Perfumes Advisor",
@@ -275,6 +304,7 @@ export const allProjects: Project[] = [
     appleAppStoreUrl: null,
     googlePlayStoreUrl: null,
     gitHubUrls: null,
+    websiteUrl: null,
   },
   {
     title: "Dota Heroes",
@@ -305,6 +335,7 @@ export const allProjects: Project[] = [
         url: "https://github.com/knottx/dota-heroes-ios",
       },
     ],
+    websiteUrl: null,
   },
   {
     title: "Weather",
@@ -324,5 +355,6 @@ export const allProjects: Project[] = [
     appleAppStoreUrl: null,
     googlePlayStoreUrl: null,
     gitHubUrls: null,
+    websiteUrl: null,
   },
 ];

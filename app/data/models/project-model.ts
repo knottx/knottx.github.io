@@ -11,6 +11,7 @@ interface Project {
   appleAppStoreUrl: string | null;
   googlePlayStoreUrl: string | null;
   gitHubUrls: GitHubUrl[] | null;
+  websiteUrl: string | null;
 }
 
 type ProjectDetail = {
