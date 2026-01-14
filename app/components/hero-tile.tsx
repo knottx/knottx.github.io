@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import Image from "next/image";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 export default function HeroTile() {
   return (
@@ -48,17 +49,6 @@ export default function HeroTile() {
                 linkedin.com/in/visarut-tippun
               </p>
             </a>
-            {/* <a
-              href="https://medium.com/@knottx"
-              target="_blank"
-              className="flex items-center gap-2 text-sky-600"
-            >
-              <FontAwesomeIcon
-                icon={faMediumM}
-                style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
-              />
-              <p className="text-xs text-sky-600">medium.com/@knottx</p>
-            </a> */}
             <a
               href="https://pub.dev/publishers/knottx.dev"
               target="_blank"
@@ -69,6 +59,17 @@ export default function HeroTile() {
                 style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
               />
               <p className="text-xs text-sky-600">pub.dev</p>
+            </a>
+            <a
+              href="/linktree"
+              target="_blank"
+              className="flex items-center gap-2 text-sky-600"
+            >
+              <FontAwesomeIcon
+                icon={faLink}
+                style={{ color: "#2F2F2F", fontSize: 20, width: 20 }}
+              />
+              <p className="text-xs text-sky-600">Linktree</p>
             </a>
           </div>
         </div>
